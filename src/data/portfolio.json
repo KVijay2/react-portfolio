@@ -1,0 +1,70 @@
+{
+    "portfolio":[
+        {
+            "cover":"/portfolio/1/one.png",
+            "title":"Weather app",
+            "description":"React,JSX,NextJs,Tailwind",
+            "url":"https://vijay-next-weather.netlify.app"
+        },
+        {
+            "cover":"/portfolio/1/2.png",
+            "title":"Weather app 2",
+            "description":"React,API,Forecast Weather,Autocomplete",
+            "url":"https://vijay-weather.netlify.app"
+        },
+        {
+            "cover":"/portfolio/1/3.png",
+            "title":"Todo app",
+            "description":"React,JSX,Firebase,Tailwind",
+            "url":"https://vijay-todo.netlify.app"
+        },
+        {
+            "cover":"/portfolio/1/4.png",
+            "title":"Dashboard",
+            "description":"React,JSX,Charts,E-Commerce,Tailwind",
+            "url":"https://vijay-dashboard.netlify.app/"
+        },
+        {
+            "cover":"/portfolio/1/5.png",
+            "title":"Chat app",
+            "description":"React,Firebase,Tailwind",
+            "url":"https://vijay-chat-app.netlify.app"
+        },
+        {
+            "cover":"/portfolio/1/6.png",
+            "title":"Portfolio 1",
+            "description":"Python(Django),CSS,HTML,JS",
+            "url":"http://127.0.0.1:8000/"
+        },
+        {
+            "cover":"/portfolio/1/7.png",
+            "title":"Todo app 2",
+            "description":"Python(Django),CSS,HTML,SQLite3",
+            "url":"http://127.0.0.1:1000/"
+        },
+        {
+            "cover":"/portfolio/1/8.png",
+            "title":"Notes app",
+            "description":"Python(Flask),HTML,SQLite3",
+            "url":"http://127.0.0.1:4000/"
+        },
+        {
+            "cover":"/portfolio/1/9.png",
+            "title":"Login system",
+            "description":"Python(Flask),HTML,SQLite3",
+            "url":"http://127.0.0.1:4000/"
+        },
+        {
+            "cover":"/portfolio/1/10.png",
+            "title":"Weather detector",
+            "description":"Python(Django),API,HTML,SQLite3",
+            "url":"http://127.0.0.1:2000/"
+        },
+        {
+            "cover":"/portfolio/1/1.png",
+            "title":"Search Filter",
+            "description":"React",
+            "url":"https://vijay-search-filter.netlify.app"
+        }
+    ]
+}
