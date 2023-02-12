@@ -16,6 +16,7 @@ import {
   faSuitcase,
   faBars,
   faClose,
+  faBuilding
 } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
@@ -29,7 +30,7 @@ const Sidebar = () => {
         to="/"
         onClick={() => setShowNav(false)}>
         <img src={LogoS} alt="Logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
+        <img className="sub-logo" src={LogoSubtitle} alt="Vijay" />
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink 
@@ -61,6 +62,14 @@ const Sidebar = () => {
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          activeclassname="active"
+          className="dashboard-link"
+          to="/dashboard"
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faBuilding} color="#4d4d4e" />
         </NavLink>
         <FontAwesomeIcon 
           onClick={() => setShowNav(false)}

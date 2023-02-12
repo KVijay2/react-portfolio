@@ -90,6 +90,12 @@
       }
     }
 
+    a.dashboard-link {
+      &:after {
+        content: 'DASHBOARD';
+      }
+    }
+
     a.portfolio-link {
       &:after {
         content: 'PORTFOLIO';
